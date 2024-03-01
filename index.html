@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NADIFY</title>
+</head>
+<body>
+
+    <header>
+        <img src="nadify.png" alt="NADIFY Logo" width="100">
+        <h1>NADIFY</h1>
+    </header>
+
+    <main>
+        <section id="mood-selector">
+            <label for="mood">Pilih Mood Anda:</label>
+            <select id="mood">
+                <option value="happy">Bahagia</option>
+                <option value="sad">Sedih</option>
+                <option value="relaxed">Santai</option>
+                <!-- Tambahkan opsi mood lainnya -->
+            </select>
+            <button onclick="getMusicByMood()">Cari Lagu</button>
+        </section>
+
+        <section id="playlist">
+            <!-- Daftar lagu akan ditampilkan di sini -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 <span class="brand">NADIFY</span></p>
+        </footer>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
